@@ -7,3 +7,5 @@ The defaultText.js provides a polyfill for modern browser placeholder functional
 conflicts
 
 [![Build Status](https://travis-ci.org/ferronrsmith/angularjs-placeholder.png)](https://travis-ci.org/ferronrsmith/angularjs-placeholder)
+
+[![Coverage Status](https://coveralls.io/repos/ferronrsmith/angularjs-placeholder/badge.png?branch=master)](https://coveralls.io/r/ferronrsmith/angularjs-placeholder?branch=master)
