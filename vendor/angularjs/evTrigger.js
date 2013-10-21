@@ -11,6 +11,9 @@ function evTrigger(element, event) {
     if (element && !element.nodeName) {
         element = element[0];
     }
+    if (!element) {
+        return;
+    }
     var ev = document.createEvent("MouseEvent");
     ev.initMouseEvent(
         event,

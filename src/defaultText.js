@@ -1,3 +1,9 @@
+/**
+ * @license AngularJS PlaceHolder v0.1
+ * (c) 2010-2012 Ferron Hanse. http://ferronrsmith.githib.io
+ * License: MIT
+ */
+
 /*jslint unparam : true */
 /*global app, $, console*/
 /***
