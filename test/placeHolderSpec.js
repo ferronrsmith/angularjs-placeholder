@@ -1,5 +1,5 @@
 /*jslint browser : true, evil :true, nomen : true */
-/*global describe, expect, it, beforeEach, afterEach, jasmine, angular, module, inject, console, $, browserTrigger */
+/*global describe, expect, it, beforeEach, afterEach, jasmine, angular, module, inject, console, $, browserTrigger, evTrigger */
 
 describe('Placeholder Testing - Modern Browsers', function () {
     "use strict";
@@ -105,10 +105,10 @@ describe('Placeholder Testing - IE Test', function () {
         timeout.flush();
         // http://stackoverflow.com/questions/17211466/how-can-i-simulate-a-click-event-in-my-angularjs-directive-test
         // https://github.com/angular/angular.js/blob/master/src/ngScenario/browserTrigger.js
-        browserTrigger(elem, 'focus');
+        evTrigger(elem, 'focus');
         expect(elem.val()).toBe('');
 
-        browserTrigger(elem, 'blur');
+        evTrigger(elem, 'blur');
         expect(elem.val()).toBe('1111');
     });
 });

@@ -8,6 +8,7 @@ module.exports = function (config) {
             'vendor/angularjs/angular.js',
             'vendor/angularjs/angular-mocks.js',
             'vendor/angularjs/browserTrigger.js',
+            'vendor/angularjs/evTrigger.js',
             'vendor/jquery/jquery-1.9.1.js',
             'vendor/jquery/jquery.browser.js',
             'app/*.js',
